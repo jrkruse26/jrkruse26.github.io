@@ -7,4 +7,7 @@
 body {
   background-color:#dcdee2;
 }
+li {
+    display:inline;
+}
   
