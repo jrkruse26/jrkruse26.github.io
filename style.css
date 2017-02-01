@@ -1,8 +1,9 @@
 .title
   {
     text-align: center;
-    font-family: Audiowide, cursive;
-    background-color: #FFF;
+    font-family: 'Audiowide', cursive;
+    background-color: #143e82;
     color: rgb (12, 83, 82);
+    border: 1px;
     }
   
