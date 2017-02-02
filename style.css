@@ -48,5 +48,5 @@ p {
   bottom: 30px;
 }
 .secret {
-    visibility:hidden;
+    opacity:0;
 }
