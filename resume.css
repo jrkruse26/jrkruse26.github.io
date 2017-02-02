@@ -1,13 +1,13 @@
-.title{
-    text-align: center;
-    font-family: 'Audiowide', cursive;
-    color: #ef330e;
-    border: 1 px;
-    font-size: 100 px;
-    }
-body {
-  background-color:#eaeaea;
-  
+table, td, tr  {
+  width: 50%;
+ }
+p.name {
+  font-size: 200%;
+  text-align: center
+}
+p {
+  padding:0px;
+  margin:2px
 }
 li {
   float:left;
@@ -32,8 +32,3 @@ ul {
 }
   li a:hover {
     background-color: #111;
-}
-p {
-  clear:left;
-  text-align: center;
-}
