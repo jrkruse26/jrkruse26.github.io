@@ -42,7 +42,7 @@ p.secret {
   height: auto;
   display:block;
   width: 27%;
-  position:absolute;
+  position:relative;
   left: 37.5%;
   border: 3px solid #ce2121;
 }
