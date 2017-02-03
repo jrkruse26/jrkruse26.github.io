@@ -11,6 +11,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-left:1px solid #ce2121;
+    border-right:1px solid #ce2121;
   }
 ul {
     background-color: #dddddd;
