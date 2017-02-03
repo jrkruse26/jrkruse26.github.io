@@ -1,7 +1,7 @@
 .title{
     text-align: center;
-    font-family: 'Audiowide', cursive;
-    color: #ef330e;
+    font-family: 'Russo One', cursive;
+    color: #ce2121;
     font-size: 30px;
     position: relative;
     bottom: 20px;
@@ -19,9 +19,10 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-left:1px solid #ce2121;
+    border-right:1px solid #ce2121;
   }
 ul {
-    background-color: #dddddd;
     list-style-type: none;
     margin:0;
     padding:0;
@@ -33,7 +34,7 @@ ul {
   li a:hover {
     background-color: #111;
 }
-p {
+p.secret {
   clear:left;
   text-align: center;
 }
@@ -46,7 +47,78 @@ p {
   width: 27%;
   position: relative;
   bottom: 30px;
+  border: 3px solid #ce2121;
 }
-.secret {
+a.secret {
     opacity:0;
+}
+.about{
+  width:438px;
+  text-align: center;
+  position: relative;
+  bottom: 27em;
+  left: 7em;
+  padding-right: 15px;
+  padding-bottom: 10px; 
+  padding-left: 15px;
+  border: 3px solid #ce2121;
+  background-color:#dddddd;
+  border-radius: 10px
+}
+.about-title{
+  background-color:#333; 
+  color:white;
+  margin: 0px;
+  padding: 10px;
+  width:448px;
+  position:relative;
+  right:15px;
+  font-family: Audiowide;
+  z-index: 1;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.about-disc{
+  font-family: Open Sans;
+  font-size: 95%;
+  margin:0;
+  width:468px;
+  position: relative;
+  right: 15px;
+  padding-top: 5px;
+}
+.links{
+  width:438px;
+  text-align: center;
+  position: relative;
+  bottom: 39em;
+  left: 81em;
+  padding-right: 15px;
+  padding-bottom: 10px; 
+  padding-left: 15px;
+  border: 3px solid #ce2121;
+  background-color:#dddddd;
+  border-radius: 10px
+}
+
+.links-title{
+  background-color:#333; 
+  color:white;
+  margin: 0px;
+  padding: 10px;
+  width:448px;
+  font-family: Audiowide;
+  z-index: 1;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  position:relative;
+  right: 15px
+}
+.fb{
+  width: 32px;
+  height: 32px;
+}
+.gh{
+  padding-left: 20px;
+  padding-right: 20px;
 }
