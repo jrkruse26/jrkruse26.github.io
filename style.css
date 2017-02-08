@@ -127,3 +127,7 @@ name.h1{
   display: inline-block;
   float:left;
 }
+.main {
+  width: 1800px;
+  height: 700px;
+}
