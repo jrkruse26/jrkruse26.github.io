@@ -2,9 +2,9 @@
     font-family: 'Russo One', cursive;
     color: #ce2121;
     font-size: 30px;
-    display: inline;
+    display: inline-block;
     position:relative;
-    left: 750px;
+    left: 280px;
     }
 body {
   background-color:#eaeaea;
@@ -64,7 +64,7 @@ a.secret {
   display: inline-block;
   position: relative;
   left: 125px;
-  top: 130px;
+  top: 270px;
   
 }
 .about-title{
