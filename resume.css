@@ -1,4 +1,4 @@
-table, td, tr  {
+tr,td,table{
   width: 50%;
  }
 body {
@@ -37,14 +37,10 @@ ul {
   li a:hover {
     background-color: #111;
 }
-p.graddate{
-  width: 200%;
-  text-align: left;
-  position: relative;
-  right: 700%;
-  overflow: auto;
+.graddate{
+
 }
-p.gpa{
-  width: 100%;
-  overflow: auto;
+.gpa {
+  width: 20%;
+  padding-left: 30px;
 }
