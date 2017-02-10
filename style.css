@@ -24,9 +24,8 @@ li a {
   }
 ul {
     list-style-type: none;
-    margin:0;
+    margin-top:0;
     padding:0;
-    overflow:hidden;
     background-color:#333;
     font-family:Audiowide;
 
@@ -106,28 +105,33 @@ a.secret {
   background-color:#333; 
   color:white;
   margin: 0px;
-  padding: 10px;
-  width:448px;
+  padding: 0.625em;
+  width:18.26em;
   font-family: Audiowide;
   z-index: 1;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
   position: relative;
-  right: 15px;
+  right: 0.64em;
 }
 .fb{
-  width: 32px;
-  height: 32px;
+  width: 2em;
+  height: 2em;
 }
 .gh{
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
 }
 name.h1{
   display: inline-block;
   float:left;
 }
 .main{
-  width: 1880px;
-  height: 700px;
+  width: 112.5em;
+  height: 43.75em;
+}
+#nav{
+  width:119em;
+  background-color:#333;
+  display: inline-block
 }
