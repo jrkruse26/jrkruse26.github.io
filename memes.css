@@ -11,18 +11,21 @@ li a {
     border-right:1px solid #ce2121;
   }
 ul {
-    font-family: sans-serif;
-    background-color: #dddddd;
     list-style-type: none;
-    margin:0;
+    margin-top:0;
     padding:0;
-    overflow:hidden;
     background-color:#333;
     font-family:Audiowide;
+
 }
   li a:hover {
     background-color: #111;
-    }
+}
+#nav{
+  width:119em;
+  background-color:#333;
+  display: inline-block
+}
     body {
   background-color:#eaeaea;
 }

@@ -33,6 +33,11 @@ ul {
   li a:hover {
     background-color: #111;
 }
+#nav{
+  width:119em;
+  background-color:#333;
+  display: inline-block
+}
 p.secret {
   clear:left;
   text-align: center;
@@ -129,9 +134,4 @@ name.h1{
 .main{
   width: 112.5em;
   height: 43.75em;
-}
-#nav{
-  width:119em;
-  background-color:#333;
-  display: inline-block
 }
