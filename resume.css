@@ -1,6 +1,6 @@
-tr,td,table{
-  width: 50%;
- }
+.table{
+  width:50%;
+}
 body {
   background-color:#eaeaea;
 }
@@ -38,9 +38,13 @@ ul {
     background-color: #111;
 }
 .graddate{
-
+  width:100%; 
 }
 .gpa {
   width: 20%;
-  padding-left: 30px;
+  margin:0;
+  padding:0;
+}
+.psu{
+  width:43%;
 }
