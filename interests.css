@@ -1,6 +1,5 @@
 body {
   background-color:#eaeaea;
-  
 }
 li {
   float:left;
@@ -26,11 +25,89 @@ ul {
     background-color: #111;
 }
 #nav{
-  width:119em;
+  width:118em;
   background-color:#333;
   display: inline-block
 }
 p {
   clear:left;
   text-align: center;
+}
+.title{
+  text-align: center;
+  font-family: Russo One;
+  color: #ce2121;
+  font-size: 55px;
+  margin-bottom: .2em;
+  margin-top: .2em;
+  
+}
+.skiing{
+  display: inline-block;
+  position: relative;
+  left: 13em;
+  border: 2px solid #ce2121;
+  background-color:#333;
+  border-radius: 3em;
+  position:relative;
+  top: 2em;
+  width: 89.45em
+}
+.pic{
+  padding:0;
+  margin:0;
+  display: block;
+  float:left;
+  height: 25em;
+}
+.desc{
+  font-family: Open Sans;
+  color: #FFF;
+  padding-top: .5em
+}
+.body{
+  height: 30em 
+  }
+.hiking{
+  display: inline-block;
+  position: relative;
+  left: 7em;
+  border: 2px solid #ce2121;
+  background-color:#333;
+  border-radius: 3em;
+  position:relative;
+  top: 4em;
+  width: 101.95em;
+}
+.computer{
+  display: inline-block;
+  position: relative;
+  left: 11em;
+  border: 2px solid #ce2121;
+  background-color:#333;
+  border-radius: 3em;
+  position:relative;
+  top: 6em;
+  width: 94.8em
+}
+.pcpic{
+  padding:0;
+  margin:0;
+  display: block;
+  float:left;
+  height: 20em;
+}
+.pcbody{
+  height: 27.5em;
+}
+.travel{
+  display: inline-block;
+  position: relative;
+  left: 9em;
+  border: 2px solid #ce2121;
+  background-color:#333;
+  border-radius: 3em;
+  position:relative;
+  top: 8em;
+  width:  100.05em; 
 }
