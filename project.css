@@ -2,10 +2,10 @@ body {
   background-color:#eaeaea;
   
 }
-li {
+.navli{
   float:left;
 }
-li a {
+.nava{
     display: block;
     color: white;
     text-align: center;
@@ -14,7 +14,7 @@ li a {
     border-left:1px solid #ce2121;
     border-right:1px solid #ce2121;
   }
-ul {
+.navul{
     list-style-type: none;
     margin-top:0;
     padding:0;
@@ -22,7 +22,7 @@ ul {
     font-family:Audiowide;
 
 }
-  li a:hover {
+.nava:hover {
     background-color: #111;
 }
 #nav{
@@ -30,7 +30,25 @@ ul {
   background-color:#333;
   display: inline-block
 }
-p {
-  clear:left;
+.title{
+  font-family: Russo One;
+  font-size: 30px;
   text-align: center;
+  color: #ce2121;
+}
+table, td, tr{
+  text-align: center;
+  border: 2px solid blue;
+}
+.index{
+  display: inline-block;
+  position: relative;
+  float: left;
+  left: 40%;
+  width: auto;
+}
+.desc{
+  text-align: center;
+  font-family: opensans;
+  
 }
