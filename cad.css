@@ -34,3 +34,19 @@ p {
   clear:left;
   text-align: center;
 }
+.title{
+  text-align: center;
+  font-family: Russo One;
+  font-size: 55px;
+  margin-bottom: .2em;
+  margin-top: .2em;
+}
+img.shoepics{
+  position: relative;
+  left: 10em;
+}
+div.shoepics{
+  width:88em;
+  position: relative;
+  left: 15em
+}
