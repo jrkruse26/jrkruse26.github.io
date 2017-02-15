@@ -25,7 +25,7 @@ ul {
     background-color: #111;
 }
 #nav{
-  width:119em;
+  width:118em;
   background-color:#333;
   display: inline-block
 }
@@ -66,4 +66,22 @@ div.shoepics{
   border:1px solid;
   margin:0;
   padding:0;
+}
+.pistonpics{
+  width: 100em
+}
+#pp1{
+  position: relative;
+  left: 12em
+}
+#pp2{
+  position: relative;
+  left: 9.6em;
+  bottom:.3em;
+}
+#pp3{
+  position: relative;
+  left: 33em;
+  bottom:.6em;
+  width:60em;
 }
