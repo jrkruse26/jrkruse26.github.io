@@ -20,7 +20,6 @@ ul {
     padding:0;
     background-color:#333;
     font-family:Audiowide;
-
 }
   li a:hover {
     background-color: #111;
@@ -40,6 +39,9 @@ p {
   font-size: 55px;
   margin-bottom: .2em;
   margin-top: .2em;
+  display: inline-block;
+  position: relative;
+  left: 12em;   
 }
 img.shoepics{
   position: relative;
@@ -49,4 +51,19 @@ div.shoepics{
   width:88em;
   position: relative;
   left: 15em
+}
+.tutorpics{
+  width: 70em;
+  position: relative;
+  left: 25em;
+}
+.tutorassem{
+  position: relative;
+  left: 11em;
+  bottom: .3em
+}
+.pics{
+  border:1px solid;
+  margin:0;
+  padding:0;
 }
