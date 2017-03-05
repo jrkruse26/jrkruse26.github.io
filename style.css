@@ -1,14 +1,15 @@
 .title{
     font-family: 'Russo One', cursive;
     color: #ce2121;
-    font-size: 30px;
+    font-size: 1.875em;
     display: inline-block;
     position:relative;
-    left: 280px;
+    left: 9.4em;
     }
 body {
   background-color:#eaeaea;
-  width: 100%;
+  width: 115em;
+  height: 55em
   
 }
 li {
@@ -18,7 +19,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.875em 1em;
     text-decoration: none;
     border-left:1px solid #ce2121;
     border-right:1px solid #ce2121;
@@ -46,65 +47,67 @@ p.secret {
 .skiing {
   border-radius: 20%;
   display:inline-block;
-  width: 515px;
+  width: 32.188em;
   border: 3px solid #ce2121;
   display: inline-block;
   float:left;
   position: relative;
-  left: 225px;
+  left: 14.063em;
 }
 a.secret {
     opacity:0;
 }
 .about{
-  width:438px;
+  width:27.375em;
   text-align: center;
-  padding-right: 15px;
-  padding-bottom: 10px; 
-  padding-left: 15px;
+  padding-right: 0.938em;
+  padding-bottom: 0.625em; 
+  padding-left: 0.938em;
   border: 3px solid #ce2121;
   background-color:#dddddd;
-  border-radius: 10px;
+  border-radius: 0.75em;
   float: left;
   display: inline-block;
   position: relative;
-  left: 125px;
-  top: 270px;
+  left: 7.813em;
+  top: 21em;
   
 }
 .about-title{
   background-color:#333; 
   color:white;
   margin: 0px;
-  padding: 10px;
-  width:448px;
+  padding: 0.625em;
+  width:18.300em;
   font-family: Audiowide;
   z-index: 1;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-left-radius: 0.375em;
+  border-top-right-radius: 0.375em;
   position: relative;
-  right: 15px;
+  right: .645em;
+  
 }
 .about-disc{
   font-family: Open Sans;
-  font-size: 15px;
+  font-size: .938em;
   margin:0;
-  padding-top: 5px;
+  padding-top: 0.313em;
+  ;
 }
 .links{
-  width:438px;
+  width:27.375em;
   text-align: center;
-  padding-right: 15px;
-  padding-bottom: 10px; 
-  padding-left: 15px;
+  padding-right: .938em;
+  padding-bottom: .625em; 
+  padding-left: .95em;
   border: 3px solid #ce2121;
   background-color:#dddddd;
-  border-radius: 10px;
+  border-radius: .7em;
   float: left;
   display: inline-block;
   position: relative;
-  left: 325px;
-  top: 130px;
+  left: 22em;
+  top: 12em;
 }
 
 .links-title{
