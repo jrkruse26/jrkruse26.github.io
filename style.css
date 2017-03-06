@@ -1,19 +1,20 @@
-#container{
-    width:100%;
-    height:100%;
+html{
+  height: 100%;
 }
 .title{
     font-family: 'Russo One', cursive;
     color: #ce2121;
     display: inline-block;
-    position:relative;
-    left: 9.4em;
-    font-size: 1.85em
+    position: absolute;
+    left: 40%;
+    font-size: 1.6vw;
+    top: 4%
     }
 body {
   background-color:#eaeaea;
-  width: 115em;
-  height: 55em;
+  width: 100%;
+  height: 100%;
+  margin:0;
 }
 li {
   float:left;
@@ -22,7 +23,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 0.875em 1em;
+    padding: 1em;
     text-decoration: none;
     border-left:1px solid #ce2121;
     border-right:1px solid #ce2121;
@@ -39,9 +40,11 @@ ul {
     background-color: #111;
 }
 #nav{
-  width:119em;
+  width:100%;
   background-color:#333;
-  display: inline-block
+  display: inline-block;
+  margin:0;
+  padding:0;
 }
 p.secret {
   clear:left;
@@ -50,95 +53,95 @@ p.secret {
 .skiing {
   border-radius: 20%;
   display:inline-block;
-  width: 32.188em;
+  width: 25%;
   border: 3px solid #ce2121;
   display: inline-block;
   float:left;
-  position: relative;
-  left: 14.063em;
+  position: absolute;
+  left: 37.5%;
+  top: 20%
 }
 a.secret {
     opacity:0;
 }
 .about{
-  width:27.375em;
+  width:25%;
   text-align: center;
-  padding-right: 0.938em;
-  padding-bottom: 0.625em; 
-  padding-left: 0.938em;
   border: 3px solid #ce2121;
   background-color:#dddddd;
-  border-radius: 0.75em;
+  border-radius: .8em;
   float: left;
   display: inline-block;
-  position: relative;
-  left: 7.813em;
-  top: 21em;
+  position: absolute;
+  left: 5%;
+  top: 30%;
   
 }
 .about-title{
   background-color:#333; 
   color:white;
-  margin: 0px;
-  padding: 0.625em;
-  width:18.300em;
+  margin: 0;
+  padding: 3.4%;
+  width:93.4%;
   font-family: Audiowide;
   z-index: 1;
-  border-top-left-radius: 0.375em;
-  border-top-right-radius: 0.375em;
-  position: relative;
-  right: .645em;
+  border-top-left-radius: 0.4em;
+  border-top-right-radius: 0.4em;
+  font-size: 150%
   
 }
 .about-disc{
   font-family: Open Sans;
-  font-size: .938em;
+  font-size: .96em;
   margin:0;
-  padding-top: 0.313em;
-  ;
+  padding-top: 1%;
+  font-size: .9vw;
+  
 }
 .links{
-  width:27.375em;
+  width:25%;
   text-align: center;
-  padding-right: .938em;
-  padding-bottom: .625em; 
-  padding-left: .95em;
   border: 3px solid #ce2121;
   background-color:#dddddd;
   border-radius: .7em;
   float: left;
   display: inline-block;
-  position: relative;
-  left: 22em;
-  top: 12em;
+  position: absolute;
+  left: 70%;
+  top: 30%;
 }
 
 .links-title{
   background-color:#333; 
   color:white;
-  margin: 0px;
-  padding: 0.625em;
-  width:18.26em;
+  margin: 0;
+  padding: 2%;
+  width: 93%%;
   font-family: Audiowide;
   z-index: 1;
   border-top-left-radius: 0.3em;
   border-top-right-radius: 0.3em;
-  position: relative;
-  right: 0.64em;
+  font-size: 150%
 }
 .fb{
-  width: 2em;
-  height: 2em;
+  width: 8%;
+  height: 8%;
 }
 .gh{
-  padding-left: 1.25em;
-  padding-right: 1.25em;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 8%;
+  height: 8%;
+}
+.in{
+  width:8%;
+  height: 8%;
 }
 name.h1{
   display: inline-block;
   float:left;
 }
 .main{
-  width: 112.5em;
-  height: 43.75em;
+  width: 100%;
+  height: 100%;
 }
