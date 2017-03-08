@@ -164,4 +164,22 @@ li.desc{
   #mnav:hover{
     width: 10%;
   }
+  #container2{
+    width: 100%;
+    font-size: 3vw;
+    min-width: 0
+  }
+  table, .gpa, .date{
+    font-size: 3vw
+  }
+  #col1{
+    width: 32%;
+  }
+  .school{
+    width: 100%
+  }
+  .gpa{
+    float: left;
+    display: block
+  }
 }
