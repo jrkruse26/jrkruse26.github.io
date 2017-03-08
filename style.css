@@ -160,6 +160,9 @@ a.secret {
 .row-1{
   height: 80%
 }
+.mrow-2{
+  display: none;
+}
 @media only screen and (max-width: 700px), handheld{
   .nav{
     display: none;
@@ -264,9 +267,7 @@ a.secret {
     width: 15%
   }
   .col-1{
-    clear:both;
-    width:100%;
-   padding-top: 8%
+    display: none;
   }
   .col-2{
     clear:both;
@@ -280,6 +281,12 @@ a.secret {
   }
   .row-1{
     height: auto;
+  }
+  .mrow-2{
+    display: block;
+    clear:both;
+    width:100%;
+   padding-top: 8%
   }
  
 }
