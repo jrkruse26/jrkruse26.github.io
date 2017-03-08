@@ -185,9 +185,11 @@ a.secret {
     padding: 1em;
     text-decoration: none;
     border:1px solid #ce2121;
+    z-index: 5
   }
   a.btn:hover{
     background-color: #111;
+    z-index: 5
   }
   ul.btn{
     list-style-type: none;
@@ -195,6 +197,7 @@ a.secret {
     padding:0;
     background-color:#333;
     font-family:Audiowide;
+    z-index: 5
   }
   .navbutton{
     border-width: 3px 3px 3px 0px;
@@ -208,6 +211,7 @@ a.secret {
     padding-top: 1%;
     font-size: 3vw;
     background-color: #ce2121;
+    z-index: 5
   }
   #mnav:hover .btngroup {
     display: block;
