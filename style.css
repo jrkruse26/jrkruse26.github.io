@@ -214,7 +214,7 @@ a.secret {
     
   }
   #mnav:hover .navbutton{
-    display:none;
+    width: 400%;
   }
   .title{
     clear: left;
