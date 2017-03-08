@@ -176,7 +176,7 @@ a.secret {
     margin: 0;
     width: 650%;
     min-width: 120px;
-    z-index: 1;
+    z-index: 5;
   }
   a.btn{
     display: block;
