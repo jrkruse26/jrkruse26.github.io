@@ -64,14 +64,14 @@ p {
   width: 100%;
   border-bottom: 2px #808080 solid;
 }
-#shoe1, #shoe2, #shoe3{
+.shoecontainer{
   float: left;
   margin: 1%;
   box-sizing: border-box;
   border: 2px #808080 solid;
   width: 31%;
 }
-#piston1, #piston2, #piston3, #piston4, #piston5{
+.pistoncontainer{
   float: left;
   margin: 1%;
   box-sizing: border-box;
@@ -98,6 +98,7 @@ p {
     position: absolute;
     padding: 0;
     z-index: 5;
+    top:0
   }
   .btngroup{
     display: none;
@@ -155,3 +156,17 @@ p {
   #mnav:hover{
     width: 10%;
   }
+  .shoecontainer, .pistoncontainer, .tutorcontainer{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    font-size: 2.5vw;
+  }
+  .title{
+    font-size: 6.5vw;
+  }
+  #title1{
+    font-size: 6.5vw;
+    margin-top: 30px;
+  }
+  
