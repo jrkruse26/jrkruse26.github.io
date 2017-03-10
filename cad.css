@@ -84,6 +84,8 @@ p {
   box-sizing: border-box;
   border: 2px #808080 solid;
   width: 18%;
+  text-decoration: none;
+  color: black;
 }
 .tutorcontainer{
   float: left;
@@ -91,6 +93,8 @@ p {
   box-sizing: border-box;
   border: 2px #808080 solid;
   width: 31%;
+  text-decoration: none;
+  color: black;
 }
 .shoecontainer:hover, .pistoncontainer:hover, .tutorcontainer:hover{
   border: 2px black solid;
