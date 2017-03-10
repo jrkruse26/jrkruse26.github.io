@@ -1,7 +1,6 @@
 body {
   background-color:#eaeaea;
   margin:0;
-  
 }
 .navcont{
   width:100%;
@@ -38,60 +37,53 @@ body {
   display: none;
 }
 p {
-  clear:left;
+  clear:both;
   text-align: center;
 }
 .title{
   text-align: center;
   font-family: Russo One;
-  font-size: 55px;
-  margin-bottom: .2em;
-  margin-top: .2em;
-  display: inline-block;
-  position: relative;
-  left: 12em;   
+  font-size: 2.5vw;
+  display: block;
+  margin-bottom: 0;
+  padding-top: 2%;
 }
-img.shoepics{
-  position: relative;
-  left: 10em;
+#title1{
+  text-align: center;
+  font-family: Russo One;
+  font-size: 2.5vw;
+  display: block;
+  margin-bottom: 0;
+  padding-top: 0;
+  margin-top: 1%;
 }
-div.shoepics{
-  width:88em;
-  position: relative;
-  left: 15em
-}
-.tutorpics{
-  width: 70em;
-  position: relative;
-  left: 25em;
-}
-.tutorassem{
-  position: relative;
-  left: 11em;
-  bottom: .3em
+.shoepics{
+  width: 100%;
 }
 .pics{
-  border:1px solid;
-  margin:0;
-  padding:0;
+  width: 100%;
+  border-bottom: 2px #808080 solid;
 }
-.pistonpics{
-  width: 100em
+#shoe1, #shoe2, #shoe3{
+  float: left;
+  margin: 1%;
+  box-sizing: border-box;
+  border: 2px #808080 solid;
+  width: 31%;
 }
-#pp1{
-  position: relative;
-  left: 12em
+#piston1, #piston2, #piston3, #piston4, #piston5{
+  float: left;
+  margin: 1%;
+  box-sizing: border-box;
+  border: 2px #808080 solid;
+  width: 18%;
 }
-#pp2{
-  position: relative;
-  left: 9.6em;
-  bottom:.3em;
-}
-#pp3{
-  position: relative;
-  left: 33em;
-  bottom:.6em;
-  width:60em;
+.tutorcontainer{
+  float: left;
+  margin: 1%;
+  box-sizing: border-box;
+  border: 2px #808080 solid;
+  width: 31%;
 }
 @media only screen and (max-width: 700px), handheld{
   .nav{
