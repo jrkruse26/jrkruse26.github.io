@@ -75,6 +75,8 @@ p {
   box-sizing: border-box;
   border: 2px #808080 solid;
   width: 31%;
+  text-decoration: none;
+  color: black;
 }
 .pistoncontainer{
   float: left;
@@ -89,6 +91,18 @@ p {
   box-sizing: border-box;
   border: 2px #808080 solid;
   width: 31%;
+}
+.shoecontainer:hover, .pistoncontainer:hover, .tutorcontainer:hover{
+  border: 2px black solid;
+}
+.shoecontainer:hover .pics{
+  border-bottom: 2px black solid;
+}
+.pistoncontainer:hover .pics{
+  border-bottom: 2px black solid;
+}
+.tutorcontainer:hover .pics{
+  border-bottom: 2px black solid;
 }
 @media only screen and (max-width: 700px), handheld{
   .nav{
@@ -174,4 +188,12 @@ p {
     font-size: 6.5vw;
     margin-top: 30px;
   }
+  .shoepics{
+  width: 100%;
+  margin: 0 auto;
+}
+.tutorpics{
+  width: 100%;
+  margin: 0 auto;
+}
   
