@@ -58,7 +58,12 @@ p {
   margin-top: 1%;
 }
 .shoepics{
-  width: 100%;
+  width: 60%;
+  margin: 0 auto;
+}
+.tutorpics{
+  width: 60%;
+  margin: 0 auto;
 }
 .pics{
   width: 100%;
