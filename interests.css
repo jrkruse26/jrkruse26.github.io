@@ -1,19 +1,32 @@
 body {
   background-color:#eaeaea;
+  margin: 0;
+  height: 100%;
 }
-li {
-  float:left;
+html{
+  height: 100%;
 }
-li a {
+.navcont{
+  width:100%;
+  background-color:#333;
+  display: inline-block;
+  margin:0;
+  padding:0;
+  min-width: 600px;
+}
+  li.nav {
+    float:left;
+}
+  a.nav {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1em;
     text-decoration: none;
     border-left:1px solid #ce2121;
     border-right:1px solid #ce2121;
   }
-ul {
+  ul.nav{
     list-style-type: none;
     margin-top:0;
     padding:0;
@@ -21,13 +34,11 @@ ul {
     font-family:Audiowide;
 
 }
-  li a:hover {
+  a.nav:hover {
     background-color: #111;
 }
-#nav{
-  width:118em;
-  background-color:#333;
-  display: inline-block
+#mnav{
+  display: none;
 }
 p {
   clear:left;
@@ -37,77 +48,162 @@ p {
   text-align: center;
   font-family: Russo One;
   color: #ce2121;
-  font-size: 55px;
-  margin-bottom: .2em;
-  margin-top: .2em;
+  font-size: 3.5vw;
+  margin-top: 1%
   
 }
 .skiing{
   display: inline-block;
-  position: relative;
-  left: 13em;
   border: 2px solid #ce2121;
   background-color:#333;
-  border-radius: 3em;
-  position:relative;
-  top: 2em;
-  width: 89.45em
+  width: 75%;
+  position: relative;
+  left: 12.5%;
+  margin-top: 40px;
+}
+#ski1{
+  width: 29.35%;
+}
+#ski2{
+  width: 49.76%
+}
+#ski3{
+  width: 20.89%
 }
 .pic{
   padding:0;
   margin:0;
   display: block;
-  float:left;
-  height: 25em;
+  float: left;
 }
 .desc{
   font-family: Open Sans;
   color: #FFF;
-  padding-top: .5em
 }
-.body{
-  height: 30em 
-  }
 .hiking{
   display: inline-block;
-  position: relative;
-  left: 7em;
   border: 2px solid #ce2121;
   background-color:#333;
-  border-radius: 3em;
-  position:relative;
-  top: 4em;
-  width: 101.95em;
+  margin-top: 1%;
+  width: 75%;
+  position: relative;
+  left: 12.5%;
+}
+#hike1{
+  width: 36.85%;
+}
+#hike2{
+  width: 44.88%;
+}
+#hike3{
+  width: 18.27%;
 }
 .computer{
   display: inline-block;
-  position: relative;
-  left: 11em;
   border: 2px solid #ce2121;
   background-color:#333;
-  border-radius: 3em;
-  position:relative;
-  top: 6em;
-  width: 94.8em
+  width: 75%;
+  margin-top: 1%;
+  position: relative;
+  left: 12.5%;
 }
 .pcpic{
   padding:0;
-  margin:0;
+  margin: 0;
   display: block;
   float:left;
-  height: 20em;
 }
-.pcbody{
-  height: 27.5em;
+#pc1{
+  width: 32.98%;
+}
+#pc2{
+  width: 29.47%;
+}
+#pc3{
+  width: 37.55%;
 }
 .travel{
   display: inline-block;
-  position: relative;
-  left: 8.3em;
   border: 2px solid #ce2121;
   background-color:#333;
-  border-radius: 3em;
-  position:relative;
-  top: 8em;
-  width:  100.05em; 
+  width:  75%; 
+  position: relative;
+  left: 12.5%;
+  margin-top: 1%;
 }
+#travel1, #travel2, #travel3{
+  width: 33.33%;
+}
+.body{
+  height: 75%;
+}
+@media only screen and (max-width: 700px), handheld{
+  .nav{
+    display: none;
+  }
+  .navcont{
+    display: none;
+  }
+  #mnav{
+    display: block;
+    width: 16px;
+    position: absolute;
+    padding: 0;
+    z-index: 5;
+  }
+  .btngroup{
+    display: none;
+    padding: 0;
+    margin: 0;
+    width: 650%;
+    min-width: 120px;
+    z-index: 5;
+  }
+  a.btn{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    border:1px solid #ce2121;
+    z-index: 5
+  }
+  a.btn:hover{
+    background-color: #111;
+    z-index: 5
+  }
+  ul.btn{
+    list-style-type: none;
+    margin-top:0;
+    padding:0;
+    background-color:#333;
+    font-family:Audiowide;
+    z-index: 5
+  }
+  .navbutton{
+    border-width: 3px 3px 3px 0px;
+    font-family: Audiowide;
+    border-style: solid;
+    width: 18px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    font-weight: 100;
+    padding-left: 40%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 20px;
+    background-color: #ce2121;
+    z-index: 5;
+    margin:0;
+  }
+  #mnav:hover .btngroup {
+    display: block;
+    
+  }
+  #mnav:hover .navbutton{
+    text-align: right;
+    padding-right: 10%;
+  }
+  #mnav:hover{
+    width: 10%;
+  }
