@@ -18,7 +18,7 @@ body {
 p.name {
   font-size: 200%;
   text-align: center;
-  padding: 0;
+  padding-top: 1%;
   margin: 0;
 }
 .navcont{
@@ -77,12 +77,18 @@ tbody{
   padding-bottom: 3%;
 }
 .gpa{
-  float: right;
+  float: left;
   overflow: auto;
   font-size: 16px;
+  display: block;
+  padding-left: 26.5%
 }
 .gpa2{
-  padding-right: 8px
+  padding-left: 30%;
+}
+.school{
+  display: inline-block;
+  float: left;
 }
 ul{
   margin:0
@@ -93,6 +99,10 @@ ul{
 }
 li.desc{
   width: 85%
+}
+#download{
+  text-align: center;
+  padding: 2%
 }
 @media only screen and (max-width: 700px), handheld{
   .nav{
@@ -146,8 +156,8 @@ li.desc{
     border-bottom-right-radius: 9px;
     font-weight: 100;
     padding-left: 40%;
-    padding-bottom: 1%;
-    padding-top: 1%;
+    padding-bottom: 150%;
+    padding-top: 150%;
     font-size: 20px;
     background-color: #ce2121;
     z-index: 5;
@@ -160,9 +170,13 @@ li.desc{
   #mnav:hover .navbutton{
     text-align: right;
     padding-right: 10%;
+    background-color: lightblue;
   }
   #mnav:hover{
-    width: 10%;
+  
+  }
+  p.name{
+    padding-top: 50px;
   }
   #container2{
     width: 100%;
@@ -175,11 +189,13 @@ li.desc{
   #col1{
     width: 32%;
   }
-  .school{
-    width: 100%
-  }
   .gpa{
     float: left;
-    display: block
+    display: block;
+    width: 36%;
+    padding: 0
+  }
+  .school{
+    width: 64%;
   }
 }

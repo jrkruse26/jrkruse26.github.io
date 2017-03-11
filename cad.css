@@ -161,8 +161,8 @@ p {
     border-bottom-right-radius: 9px;
     font-weight: 100;
     padding-left: 40%;
-    padding-bottom: 1%;
-    padding-top: 1%;
+    padding-bottom: 150%;
+    padding-top: 150%;
     font-size: 20px;
     background-color: #ce2121;
     z-index: 5;
@@ -175,9 +175,10 @@ p {
   #mnav:hover .navbutton{
     text-align: right;
     padding-right: 10%;
+    background-color: lightblue;
   }
   #mnav:hover{
-    width: 10%;
+  
   }
   .shoecontainer, .pistoncontainer, .tutorcontainer{
     width: 90%;

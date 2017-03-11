@@ -182,7 +182,7 @@ p {
     font-family:Audiowide;
     z-index: 5
   }
-  .navbutton{
+ .navbutton{
     border-width: 3px 3px 3px 0px;
     font-family: Audiowide;
     border-style: solid;
@@ -191,8 +191,8 @@ p {
     border-bottom-right-radius: 9px;
     font-weight: 100;
     padding-left: 40%;
-    padding-bottom: 1%;
-    padding-top: 1%;
+    padding-bottom: 150%;
+    padding-top: 150%;
     font-size: 20px;
     background-color: #ce2121;
     z-index: 5;
@@ -205,7 +205,19 @@ p {
   #mnav:hover .navbutton{
     text-align: right;
     padding-right: 10%;
+    background-color: lightblue;
   }
   #mnav:hover{
-    width: 10%;
+  }
+  .desc{
+    font-size: 2vw;
+  }
+  .title{
+    font-size: 5vw;
+    padding-bottom: 0;
+    margin-bottom: 0
+  }
+  #ski1, #ski2, #ski3, #hike1, #hike2, #hike3, #pc1, #pc2, #pc3, #travel1, #travel2, #travel3{
+    width: 100%;
+    border-top: 2px black solid;
   }
