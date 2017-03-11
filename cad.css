@@ -98,6 +98,7 @@ p {
 }
 .shoecontainer:hover, .pistoncontainer:hover, .tutorcontainer:hover{
   border: 2px black solid;
+  box-shadow: 5px 5px 20px #888;
 }
 .shoecontainer:hover .pics{
   border-bottom: 2px black solid;

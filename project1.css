@@ -14,7 +14,6 @@ body {
   margin:0;
   padding:0;
   min-width: 600px;
-  border: 1px solid #ce2121;
 }
   li.nav {
     float:left;
@@ -47,6 +46,8 @@ body {
   font-size: 20px;
   padding-top: 10px;
   padding-bottom: 30px;
+  color: #015249;
+  text-shadow: 2px 2px 2px #015249
 }
 div.creation{
   background-color:#57bc90;
@@ -55,7 +56,7 @@ div.creation{
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
-  height: 30%;
+  float: left;
 }
 div.coding{
   background-color:#015249;
@@ -64,10 +65,15 @@ div.coding{
   padding: 30px 10px 30px 10px;
   box-sizing: border-box;
   width: 100%;
+  float: left;
 }
 #contents{
   font-family: open sans;
   color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 3px black solid;
 }
 div.responsive_design{
   background-color: #57bc90;
@@ -75,6 +81,8 @@ div.responsive_design{
   margin: 0;
   display: inline-block;
   box-sizing: border-box;
+  width: 100%;
+  float: left;
 }
 p{
   padding: 0;
@@ -110,6 +118,7 @@ p.creation{
 p.responsive_design{
   width: 50%;
   padding-top: 3%;
+  margin: 0;
 }
 #creation1{
   width: 50%;
@@ -125,6 +134,12 @@ p.responsive_design{
   width: 50%;
   margin: 0;
   padding: 0;
+}
+#codeacadamy{
+  width: 50%;
+  padding-left: 20%;
+  position: relative;
+  padding-top: 3%
 }
 @media only screen and (max-width: 700px), handheld{
   .nav{
@@ -195,5 +210,10 @@ p.responsive_design{
     background-color: lightblue;
   }
   #mnav:hover{
-  
+  }
+  #codeacadamy{
+    width: 90%;
+    padding-left: 0%;
+    padding-top: 20%;
+    margin: 0;
   }
