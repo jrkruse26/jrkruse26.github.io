@@ -236,3 +236,12 @@ p.future{
   .col1{
     width: 100%;
   }
+  .title{
+    font-size: 7vw
+  }
+  p{
+    font-size: 3vw;
+  }
+  h1{
+    font-size: 5vw
+  }
