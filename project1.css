@@ -74,9 +74,19 @@ div.coding{
   margin: 0 auto;
   overflow: hidden;
   border: 3px black solid;
+  margin-bottom: 3%;
 }
 div.responsive_design{
   background-color: #57bc90;
+  padding: 30px 10px 30px 10px;
+  margin: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+}
+div.future{
+  background-color: #015249;
   padding: 30px 10px 30px 10px;
   margin: 0;
   display: inline-block;
@@ -103,25 +113,31 @@ h1.responsive_design{
   margin:0;
   display: inline-block;
 }
+h1.future{
+  padding: 0;
+  margin:0;
+  display: inline-block;
+}
 p.coding{
   display: inline-block;
   clear: both;
   float: right;
   width: 100%;
-  padding-top: 3%;
 }
 p.creation{
   width: 100%;
-  padding-top: 3%;
   float: left;
 }
 p.responsive_design{
-  width: 50%;
   padding-top: 3%;
   margin: 0;
 }
-#creation1{
-  width: 50%;
+p.future{
+  display: inline-block;
+  clear: both;
+  float: right;
+  width: 100%;
+  padding-top: 3%;
 }
 .col1{
   float: left;
@@ -130,7 +146,7 @@ p.responsive_design{
   padding: 0;
 }
 .col2{
-  float: left;
+  float: right;
   width: 50%;
   margin: 0;
   padding: 0;
@@ -212,8 +228,11 @@ p.responsive_design{
   #mnav:hover{
   }
   #codeacadamy{
-    width: 90%;
-    padding-left: 0%;
-    padding-top: 20%;
-    margin: 0;
+    display: none;
+  }
+  .col2{
+    width: 100%
+  }
+  .col1{
+    width: 100%;
   }
