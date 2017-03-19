@@ -47,7 +47,7 @@ body {
   padding-top: 10px;
   padding-bottom: 30px;
   color: #015249;
-  text-shadow: 2px 2px 2px #015249
+  text-shadow: 2px 2px black
 }
 div.creation{
   background-color:#57bc90;
@@ -157,6 +157,21 @@ p.future{
   position: relative;
   padding-top: 3%
 }
+#github{
+  width: 50%;
+  padding-left: 25%
+}
+#MobileSite{
+  width: 40%;
+  padding-left: 30%;
+}
+#question{
+  display: inline-block;
+  font-size: 220px;
+  font-weight: bolder;
+  padding-left: 38%;
+  
+}
 @media only screen and (max-width: 700px), handheld{
   .nav{
     display: none;
@@ -228,6 +243,15 @@ p.future{
   #mnav:hover{
   }
   #codeacadamy{
+    display: none;
+  }
+  #github{
+    display: none;
+  }
+  #MobileSite{
+    display: none;
+  }
+  #question{
     display: none;
   }
   .col2{
