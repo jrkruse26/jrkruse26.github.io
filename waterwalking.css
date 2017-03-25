@@ -1,6 +1,6 @@
 body {
   background-color:#eaeaea;
-  margin: 0;
+  margin:0;
 }
 .navcont{
   width:100%;
@@ -36,39 +36,73 @@ body {
 #mnav{
   display: none;
 }
-.title{
-  font-family: Russo One;
-  font-size: 30px;
-  text-align: center;
-  color: #ce2121;
+.col1{
+  float: left;
+  width: 70%;
 }
-table, td, tr{
-  text-align: center;
-  border: 2px solid black;
+.col2{
+  float: left;
+  width: 25%;
+  height: 600px;
+  overflow-y: scroll;
+  margin-left: 2.5%;
+  border: 3px solid black
+}
+table, td, tr, th{
+  border: 1px solid black;
   border-collapse: collapse;
-  padding: 10px;
-  margin: 0 auto;
 }
-.index{
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  width: 70%;
-  max-width: 1000px;
-  min-width: 550px;
+.survey{
+  float: left;
+  width: 100%;
+  margin-left:
 }
-.desc{
-  text-align: center;
-  font-family: opensans;
-  width: 70%;
-  margin: 0 auto;
-  padding-bottom: 25px;
-  min-width: 550px;
-  max-width: 1000px;
+#surveyresponse{
+  width: 100%;
+  height: 350px;
 }
-#header{
-  font-weight: bold;
-  background-color: lightblue
+#conceptscreen{
+  width: 56.5%;
+  height: 300px;
+  float:left;
+  display: inline-block;
+}
+#pairwise{
+  width: 43%;
+  height: 300px;
+  float: left;
+  display: inline-block;
+}
+#container{
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+}
+#brainstorming{
+  float: left;
+  clear: both;
+  width: 100%;
+  display: inline;
+}
+#brainstormsheets{
+  display: inline-block;
+  width: 90%;
+}
+#prototype{
+  display: inline-block;
+  clear: left;
+  float: left;
+}
+#testing{
+  display: inline-block;
+  clear: left;
+  float: left;
+}
+#presentation{
+  display: inline-block;
+  clear: left;
+  float: left;
+  margin-bottom: 30px;
 }
 @media only screen and (max-width: 700px), handheld{
   .nav{
@@ -83,7 +117,7 @@ table, td, tr{
     position: absolute;
     padding: 0;
     z-index: 5;
-    top: 0;
+    top:0
   }
   .btngroup{
     display: none;
@@ -142,24 +176,3 @@ table, td, tr{
   #mnav:hover{
   
   }
-  .index{
-  display: block;
-  margin: 0 auto;
-  width: 95%;
-  max-width: 1000px;
-  min-width: 0;
-  font-size: 2.5vw
-  }
-  .desc{
-  font-size: 2.5vw;
-  min-width: 0;
-  width: 95%;
-  
-  }
-  .title{
-    font-size: 3.5vw;
-    padding-top: 20px;
-  }
-  table, td, tr{
-  padding: 5px 2px 5px 2px;
-}
