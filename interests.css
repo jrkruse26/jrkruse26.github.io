@@ -209,14 +209,18 @@ p {
   #mnav:hover{
   }
   .desc{
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   .title{
-    font-size: 7vw;
+    font-size: 8vw;
     padding-bottom: 0;
     margin-bottom: 0
   }
   #ski1, #ski2, #ski3, #hike1, #hike2, #hike3, #pc1, #pc2, #pc3, #travel1, #travel2, #travel3{
     width: 100%;
     border-top: 2px black solid;
+  }
+  .skiing, .hiking, .computer, .travel{
+    width: 82%;
+    left: 9%;
   }
