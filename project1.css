@@ -269,3 +269,6 @@ p.future{
   h1{
     font-size: 5vw
   }
+  #contents{
+    margin-bottom: 0;
+  }
