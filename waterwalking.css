@@ -27,7 +27,7 @@ body {
     margin-top:0;
     padding:0;
     background-color:#333;
-    font-family:Audiowide;
+    font-family: Audiowide;
 
 }
   a.nav:hover {
@@ -42,11 +42,11 @@ body {
 }
 .col2{
   float: left;
-  width: 25%;
-  height: 600px;
+  width: 29%;
+  height: 620px;
   overflow-y: scroll;
-  margin-left: 2.5%;
-  border: 3px solid black
+  border: 2px solid black;
+  margin-top: 200px
 }
 table, td, tr, th{
   border: 1px solid black;
@@ -58,7 +58,7 @@ table, td, tr, th{
   margin-left:
 }
 #surveyresponse{
-  width: 100%;
+  width: 90%;
   height: 350px;
 }
 #conceptscreen{
@@ -68,21 +68,32 @@ table, td, tr, th{
   display: inline-block;
 }
 #pairwise{
-  width: 43%;
+  width: 42%;
   height: 300px;
   float: left;
   display: inline-block;
 }
+#planningcont{
+  width: 75%
+}
 #container{
-  width: 100%;
+  width: 80%;
   display: inline-block;
-  margin: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#overview{
+  width: 50%;
+  font-family: Oswald;
 }
 #brainstorming{
   float: left;
   clear: both;
   width: 100%;
   display: inline;
+}
+#brainstormingtext{
+  width: 70%
 }
 #brainstormsheets{
   display: inline-block;
@@ -103,6 +114,111 @@ table, td, tr, th{
   clear: left;
   float: left;
   margin-bottom: 70px;
+}
+.text{
+  display: inline-block;
+  width: 70%;
+  clear: left;
+  float: left
+}
+.pics{
+  width: 100%;
+  float: left;
+  padding-left: 5%
+  
+}
+h1{
+  text-align: center;
+  font-family: Special Elite;
+  font-size: 50px;
+  margin-bottom: 1%;
+}
+h2{
+  font-family: Special Elite;
+  position: relative;
+  right: 5%;
+  margin-top: 5%
+}
+h3{
+  font-family: Special Elite
+}
+p, tr{
+  font-family: Oswald
+}
+#specs{
+  width: 100%;
+  float: left;
+  clear: right;
+}
+#spectable{
+  display: inline-block;
+  float: left;
+  clear: both;
+  padding-left: 5%
+}
+#powerpoint{
+  width: 64.8%;
+  margin-left: 20%
+}
+hr.body{
+  width: 124.9%;
+  position: relative;
+  right: 12.5%
+}
+.piccont{
+   float: left;
+  margin: .2%;
+  box-sizing: border-box;
+  border: 2px #808080 solid;
+  width: 23%;
+  max-width: 500px;
+  text-decoration: none;
+  color: black;
+}
+.piccont1{
+ float: left;
+  margin: .2%;
+  box-sizing: border-box;
+  border: 2px #808080 solid;
+  width: 15%;
+  max-width: 500px;
+  text-decoration: none;
+  color: black;
+}
+img.pic{
+  width: 100%;
+  border-bottom: 2px #808080 solid;
+}
+.piccont:hover, .piccont1:hover{
+  border: 2px black solid;
+  box-shadow: 5px 5px 20px #888;
+}
+.piccont:hover .pic{
+  border-bottom: 2px black solid;
+}
+.piccont1:hover .pic{
+  border-bottom: 2px black solid;
+}
+.desc{
+  text-align: center;
+  margin: 2%;
+}
+a.linkbox{
+  padding: 2%;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #ce2121;
+  font-family: Oswald;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+a.linkbox:hover{
+  background-color: #ce2121;
+  border: 2px solid #333;
+  color: black;
 }
 @media only screen and (max-width: 700px), handheld{
   .nav{
