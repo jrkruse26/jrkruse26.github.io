@@ -90,13 +90,13 @@ table, td, tr, th{
   height: 350px;
 }
 #conceptscreen{
-  width: 56.5%;
+  width: 100%;
   height: 300px;
   float:left;
   display: inline-block;
 }
 #pairwise{
-  width: 42%;
+  width: 100%;
   height: 300px;
   float: left;
   display: inline-block;
