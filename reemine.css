@@ -56,10 +56,16 @@ th.dl{
   border-right: 0;
   padding-left: 15%
 }
+a.dl{
+  pointer-events: none;
+  cursor: not-allowed;
+}
+img.dl:hover{
+  cursor: not-allowed;
+}
 #filler{
   background-color: azure;
   border-left: 0;
-  
 }
 .col1{
   float: left;
