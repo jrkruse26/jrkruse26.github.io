@@ -104,6 +104,13 @@ li.desc{
   text-align: center;
   padding: 2%
 }
+.pdfbox{
+  width:1200px;
+  text-align: center;
+  display: inline;
+  margin: 0 auto;
+ 
+}
 @media only screen and (max-width: 700px), handheld{
   .nav{
     display: none;
@@ -197,5 +204,8 @@ li.desc{
   }
   .school{
     width: 64%;
+  }
+  .pdfbox{
+    width: 90%;
   }
 }
