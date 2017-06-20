@@ -9,28 +9,12 @@
   <link href="interests.css?v=1.32" type="text/css" rel="stylesheet">
   <title>Interests</title>
 </head>
+<script src="w3.js"></script>
 <body>
-   <div id="mnav">
-    <p onclick="" class="navbutton">&raquo</p>
-    <div class="btngroup">
-      <ul class="btn">
-      <li class="btn"><a class="btn" href="https://jordankruse.com">Home</a></li>
-      <li class="btn"><a class="btn" href="resume.pdf">Résumé</a></li>
-      <li class="btn"><a class="btn" href="interests.html">Interests</a></li>
-      <li class="btn"><a class="btn" href="cad.html">Cad Drawings</a></li>
-      <li class="btn"><a class="btn" href="project.html">Projects</a></li>
-      </ul>
-    </div>
-  </div>
-   <div class="navcont">
-    <ul class="nav">
-      <li class="nav"><a class="nav" href="https://jordankruse.com">Home</a></li>
-      <li class="nav"><a class="nav" href="resume.pdf">Résumé</a></li>
-      <li class="nav"><a class="nav" href="interests.html">Interests</a></li>
-      <li class="nav"><a class="nav" href="cad.html">Cad Drawings</a></li>
-      <li class="nav"><a class="nav" href="project.html">Projects</a></li>
-    </ul>
-  </div>
+   <div w3-include-html="menu.html"></div> 
+  <script>
+    w3.includeHTML();
+  </script>
   <div class="skiing">
     <h1 class="title">Skiing</h1>
     <div class=body>
