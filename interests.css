@@ -6,39 +6,6 @@ body {
 html{
   height: 100%;
 }
-.navcont{
-  width:100%;
-  background-color:#333;
-  display: inline-block;
-  margin:0;
-  padding:0;
-  min-width: 600px;
-}
-  li.nav {
-    float:left;
-}
-  a.nav {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    text-decoration: none;
-    border-left:1px solid #ce2121;
-    border-right:1px solid #ce2121;
-  }
-  ul.nav{
-    list-style-type: none;
-    margin-top:0;
-    padding:0;
-    background-color:#333;
-    font-family:Audiowide;
-}
-  a.nav:hover {
-    background-color: #111;
-}
-#mnav{
-  display: none;
-}
 p {
   clear:left;
   text-align: center;
@@ -139,75 +106,7 @@ p {
   height: 75%;
 }
 @media only screen and (max-width: 700px), handheld{
-  .nav{
-    display: none;
-  }
-  .navcont{
-    display: none;
-  }
-  #mnav{
-    display: block;
-    width: 16px;
-    position: absolute;
-    padding: 0;
-    z-index: 5;
-  }
-  .btngroup{
-    display: none;
-    padding: 0;
-    margin: 0;
-    width: 1000%;
-    min-width: 120px;
-    z-index: 5;
-  }
-  a.btn{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    text-decoration: none;
-    border:1px solid #ce2121;
-    z-index: 5
-  }
-  a.btn:hover{
-    background-color: #111;
-    z-index: 5
-  }
-  ul.btn{
-    list-style-type: none;
-    margin-top:0;
-    padding:0;
-    background-color:#333;
-    font-family:Audiowide;
-    z-index: 5
-  }
- .navbutton{
-    border-width: 3px 3px 3px 0px;
-    font-family: Audiowide;
-    border-style: solid;
-    width: 18px;
-    border-top-right-radius: 9px;
-    border-bottom-right-radius: 9px;
-    font-weight: 100;
-    padding-left: 40%;
-    padding-bottom: 150%;
-    padding-top: 150%;
-    font-size: 20px;
-    background-color: #ce2121;
-    z-index: 5;
-    margin:0;
-  }
-  #mnav:hover .btngroup {
-    display: block;
-    
-  }
-  #mnav:hover .navbutton{
-    text-align: right;
-    padding-right: 10%;
-    background-color: lightblue;
-  }
-  #mnav:hover{
-  }
+  
   .desc{
     font-size: 3.5vw;
   }
