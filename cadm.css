@@ -1,0 +1,83 @@
+body {
+  background-color:#eaeaea;
+  margin:0;
+}
+.pics{
+  width: 100%;
+  border-bottom: 2px #808080 solid;
+}
+h1{
+  text-align: center;
+  font-family: Russo One;
+  font-size: 65px;
+  color:#ce2121;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding: 0;
+  margin-bottom: 20px
+
+}
+.watercontainer{
+  float: left;
+  margin: 1%;
+  box-sizing: border-box;
+  border: 2px #808080 solid;
+  width: 18%;
+  text-decoration: none;
+  color: black;
+  margin-left: 14.125%;
+}
+.pistoncontainer{
+  float: left;
+  margin: 1%;
+  box-sizing: border-box;
+  border: 2px #808080 solid;
+  width: 27.75%;
+  text-decoration: none;
+  color: black;
+}
+.reactorcontainer{
+  float: left;
+  margin: 1%;
+  box-sizing: border-box;
+  border: 2px #808080 solid;
+  width: 18%;
+  text-decoration: none;
+  color: black;
+}
+p {
+  clear:both;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 900
+}
+.watercontainer:hover .pics{
+  border-bottom: 2px black solid;
+}
+.pistoncontainer:hover .pics{
+  border-bottom: 2px black solid;
+}
+.reactorcontainer:hover .pics{
+  border-bottom: 2px black solid;
+}
+.watercontainer:hover, .pistoncontainer:hover, .reactorcontainer:hover{
+  border: 2px black solid;
+  box-shadow: 5px 5px 20px #888;
+}
+@media only screen and (max-width: 700px), handheld{
+ 
+  .watercontainer, .pistoncontainer, .reactorcontainer{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    font-size: 2.5vw;
+  }
+  .desc{
+    font-size: 4vw;
+    margin: 1%;
+  }
+  .watercontainer{
+    margin: 1%
+  }
+  h1{
+    font-size: 10vw
+  }
