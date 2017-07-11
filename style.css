@@ -5,3 +5,24 @@ body{
 p, h1, h2{
   color: #FCFFF5
 }
+h1{
+  text-align: center;
+}
+.column1, .column2, .column3{
+  width: 33.33%;
+  float: left;
+}
+#main{
+  margin: 3%
+}
+.quadbox{
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  float: left;
+    
+}
+#picbox{
+  width: 80%;
+  padding-left: 10%;
+}
