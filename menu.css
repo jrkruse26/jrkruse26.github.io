@@ -5,7 +5,7 @@ html{
 }
 .navcont{
   width:100%;
-  background-color:#333;
+  background-color:;
   display: inline-block;
   margin:0;
   padding:0;
@@ -20,16 +20,16 @@ html{
     text-align: center;
     padding: 1em;
     text-decoration: none;
-    border-left:1px solid #ce2121;
-    border-right:1px solid #ce2121;
+    border:1px solid #000;
+    border-right:1px solid #000;
+    box-sizing: border-box;
   }
   ul.nav{
     list-style-type: none;
     margin-top:0;
     padding:0;
     background-color:#333;
-    font-family:Audiowide;
-
+    font-family:
 }
   a.nav:hover {
     background-color: #111;
