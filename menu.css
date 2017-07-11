@@ -1,15 +1,15 @@
 
-}
 html{
   height: 100%;
 }
 .navcont{
   width:100%;
-  background-color:;
   display: inline-block;
   margin:0;
   padding:0;
-  min-width: 600px;
+
+  height: auto;  
+  clear:right;
 }
   li.nav {
     float:left;
@@ -20,22 +20,30 @@ html{
     text-align: center;
     padding: 1em;
     text-decoration: none;
-    border:1px solid #000;
-    border-right:1px solid #000;
+    border:0px solid #000;
+    border-right:0px solid #000;
     box-sizing: border-box;
   }
   ul.nav{
     list-style-type: none;
-    margin-top:0;
+    margin: auto;
     padding:0;
     background-color:#333;
-    font-family:
+    display: block
 }
   a.nav:hover {
     background-color: #111;
 }
 #mnav{
   display: none;
+}
+#group1{
+  display: block;
+  margin: auto;
+  padding: 0;
+  width: 458.395px;
+  text-align: center;
+    
 }
 
 @media only screen and (max-width: 700px), handheld{
