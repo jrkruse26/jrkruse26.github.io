@@ -1,189 +1,67 @@
-html{
-  height: 100%;
-}
-.title{
-    font-family: 'Russo One', cursive;
-    color: #ce2121;
-    display: block;
-    font-size: 1.6vw;
-    margin: 0 auto;
-    float: none;
-    text-align: center
-}
-body {
-    background-color:#eaeaea;
-    width: 100%;
-    height: 100%;
-    margin:0;
-}
-p.secret {
-  clear:left;
-  text-align: center;
-}
-.skiing {
-  border-radius: 20%;
-  display:inline-block;
-  width: 75%;
-  border: 3px solid #ce2121;
-  display: block;
-  margin:0 auto;
-}
-a.secret {
-    opacity:0;
-}
-.about{
-  width:75%;
-  text-align: center;
-  border: 3px solid #ce2121;
-  background-color:#dddddd;
-  border-radius: 20px;
-  display: block;
-  position: relative;
-  top: 35%;
-  margin-left: 20%;
-  
-}
-.about-title{
-  background-color:#333; 
-  color:white;
+body{
   margin: 0;
-  padding: 3.4%;
-  font-family: Audiowide;
-  border-top-left-radius: 17px;
-  border-top-right-radius: 17px;
-  font-size: 1.5vw;
-  
+  background: #193441
 }
-.about-disc{
-  font-family: Open Sans;
-  margin:0;
-  padding: 1% 1% 2% 1%;
-  font-size: 16px;
-  
-  
+p, h1, h2, h3, li{
+  color: #FCFFF5
 }
-.links{
-  width:65%;
+h1, h2{
   text-align: center;
-  border: 3px solid #ce2121;
-  background-color:#dddddd;
-  border-radius: 20px;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  top: 35%;
-  margin-right: 30%;
 }
-
-.links-title{
-  background-color:#333; 
-  color:white;
+.column1, .column2, .column3{
+  width: 33.33%;
+  float: left;
+}
+#main{
+  margin-top: 3%
+}
+.quadbox{
+  width: 50%;
+  padding: 0;
   margin: 0;
-  padding: 2%;
-  font-family: Audiowide;
-  z-index: 1;
-  border-top-left-radius: 17px;
-  border-top-right-radius: 17px;
-  font-size: 1.5vw;
-}
-.gm{
-  width: 8%;
-  height: 8%;
-  position: relative;
-  left: 7%;
-}
-.gh{
-  height: 8%;
-  width: 8%;
-}
-.in{
-  width:8%;
-  height: 8%;
-  position: relative;
-  right: 7%;
-}
-.main{
-  width: 100%;
-  height: 100%;
-}
-.col-1{
-  width: 33%;
   float: left;
-  height: 93%;
+  box-sizing: border-box
+    
 }
-.col-2{
-  width: 33%;
+#picbox{
+  width: 80%;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: inline-block;
+  height: auto;
+  display: none
+}
+.row1{
+  display: inline-block;
+  background-color: 193441;
+  padding: 3%;
+}
+.logo{
+  width: 30%;
+  padding-left: 35%;
+  padding-top: 5%
+}
+#about{
+  padding-left: 2%
+}
+h2{
+  padding-top: 10%
+}
+.aboutpic{
+  width: 40%;
+  float: left
+}
+.abouttext{
   float: left;
-  height: 93%;
+  display: inline-block;
+  width: 40%;
+  padding-left: 5%;
 }
-.col-3{
-  width:33%;
-  float: left;
-  height: 93%;
+.aboutcol{
+  display: inline-block;
+  padding-top: 5%;
 }
-.row-1{
-  height: 80%
-}
-.mrow-2{
-  display: none;
-}
-@media only screen and (max-width: 700px), handheld{
-
-  .title{
-    clear: left;
-    font-size: 4vw
-  }
-  .skiing{
-    clear:left;
-  }
-  .about{
-    width: 85%;
-    padding: 0;
-    margin: 0 auto;
-  }
-  .about-title{
-    font-size: 5vw
-  }
-  .about-disc{
-    font-size: 3vw
-  }
-  .links{
-    margin: 0 auto;
-    width: 60%;
-  }
-  .links-title{
-    font-size: 4.5vw;
-  }
-  .gm{
-    width: 15%
-  }
-  .gh{
-    width: 15%;
-  }
-  .in{
-    width: 15%
-  }
-  .col-1{
-    display: none;
-  }
-  .col-2{
-    clear:both;
-    width: 100%;
-  }
-  .col-3{
-    clear: both;
-    width: 100%;
-    padding-top: 10%;
-    padding-bottom: 8%;
-  }
-  .row-1{
-    height: auto;
-  }
-  .mrow-2{
-    display: block;
-    clear:both;
-    width:100%;
-   padding-top: 8%
-  }
- 
+#bart{
+  border-radius: 50%
 }
