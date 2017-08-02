@@ -119,6 +119,9 @@ h3{
   opacity: 0;
   cursor: pointer;
 }
+#secret:hover{
+  cursor: pointer;
+}
 #main{
   min-width: 1200px
 }
@@ -130,11 +133,19 @@ h3{
     display: none;
   }
   #name{
-    width: 100%
+    width: 100%;
+    min-width: 0;
   }
   .column2{
     min-width: 0;
     margin: 0;
     width: 100%
+  }
+  h1{
+    font-size: 15vw
+  }
+  .social{
+    margin-left: 15%;
+    width: 15%
   }
 }

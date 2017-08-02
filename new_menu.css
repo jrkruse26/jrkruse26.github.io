@@ -50,7 +50,13 @@ html{
   text-align: center;
     
 }
-
+@media only screen and (max-width: 700px), handheld{
+  a.nav{
+    font-size: 3.3vw;
+    padding: none;
+    margin: none;
+  }
+}
 /* @media only screen and (max-width: 700px), handheld{
   .nav{
     display: none;
