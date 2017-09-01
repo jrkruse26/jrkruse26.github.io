@@ -1,125 +1,107 @@
-body {
-  background-color:#eaeaea;
-  margin: 0;
-  height: 100%;
-}
 html{
   height: 100%;
 }
-p {
-  clear:left;
-  text-align: center;
-  
+body{
+  margin: 0;
+  background: #193441;
+  height: 100%;
 }
-.title{
-  text-align: center;
-  font-family: Russo One;
-  color: #ce2121;
-  font-size: 3.5vw;
-  margin-top: 1%
-  
+p, h2, h3{
+  color: #FCFFF5;
+  font-family: Tinos
 }
-.skiing{
-  display: inline-block;
-  border: 2px solid #ce2121;
-  background-color:#333;
-  width: 75%;
-  position: relative;
-  left: 12.5%;
-  margin-top: 40px;
+h2{
+  font-size: 28px;
 }
-#ski1{
-  width: 29.35%;
-}
-#ski2{
-  width: 49.76%
-}
-#ski3{
-  width: 20.89%
-}
-.pic{
-  padding:0;
-  margin:0;
-  display: block;
+.split{
+  width: 50%;
   float: left;
+  padding-top: 20px;
+  box-sizing: border-box;
+  height: 100%;
+  padding-bottom: 3%
+ 
 }
-.desc{
+#main{
+  border-top: 6px solid #FCFFF5;
+  display: inline-flex;
+  float: left;
+  display: table;
+  overflow: hidden;
+  height: auto;
+  border-bottom: 0px solid #FCFFF5;
+  margin-bottom: 0%;
+  
+}
+h2{
+  text-align: center
+}
+#leftsplit{
+  box-sizing: border-box;
+  padding-right: 40px;
+  padding-left: 5%;
+  height: 100%;
+
+}
+#rightsplit{
+  border-left: 0px solid #FCFFF5;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-right: 5%;
+  height: 100%;
+  border-left: 8px solid #FCFFF5;
+}
+.sectitle{
+  padding-bottom: 30px
+}
+p{
+  padding-left: 30px;
   font-family: Open Sans;
+  text-indent: 0px;
+}
+.link{
   color: #FFF;
 }
-.hiking{
+.picbox{
+  width: 80%;
   display: inline-block;
-  border: 2px solid #ce2121;
-  background-color:#333;
-  margin-top: 1%;
-  width: 75%;
-  position: relative;
-  left: 12.5%;
+  margin-left: 10%;
+  box-shadow: 3px 5px 20px  black;
+  margin-bottom: 1%
 }
-#hike1{
-  width: 36.85%;
-}
-#hike2{
-  width: 44.88%;
-}
-#hike3{
-  width: 18.27%;
-}
-.computer{
+.pic{
   display: inline-block;
-  border: 2px solid #ce2121;
-  background-color:#333;
-  width: 75%;
-  margin-top: 1%;
-  position: relative;
-  left: 12.5%;
-}
-.pcpic{
-  padding:0;
-  margin: 0;
-  display: block;
-  float:left;
-}
-#pc1{
-  width: 32.98%;
-}
-#pc2{
-  width: 29.47%;
-}
-#pc3{
-  width: 37.55%;
-}
-.travel{
-  display: inline-block;
-  border: 2px solid #ce2121;
-  background-color:#333;
-  width:  75%; 
-  position: relative;
-  left: 12.5%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-}
-#travel1, #travel2, #travel3{
-  width: 33.33%;
-}
-.body{
-  height: 75%;
-}
-@media only screen and (max-width: 700px), handheld{
+  float: left;
   
-  .desc{
-    font-size: 3.5vw;
+}
+#nuclearplant{
+  width: 63.1%
+}
+#sub{
+  width: 36.9%; 
+  box-sizing: border-box;
+  border-left: 2px black solid
+}
+
+@media only screen and (max-width: 700px), handheld{
+  .split{
+    width: 100%
   }
-  .title{
-    font-size: 8vw;
-    padding-bottom: 0;
-    margin-bottom: 0
+  #rightsplit{
+    border:none;
+    padding: 2%
   }
-  #ski1, #ski2, #ski3, #hike1, #hike2, #hike3, #pc1, #pc2, #pc3, #travel1, #travel2, #travel3{
+  #leftsplit{
+    padding: 2%;
+    border-bottom: 2px  #FCFFF5 solid;
+    margin-bottom: 6%;
+    padding-bottom: 9%;
+    box-sizing: border-box;
+  }
+  .picbox{
     width: 100%;
-    border-top: 2px black solid;
+    margin-left: 0
   }
-  .skiing, .hiking, .computer, .travel{
-    width: 82%;
-    left: 9%;
-  }
+  #main{
+  border-top: 2px solid #FCFFF5;
+}
