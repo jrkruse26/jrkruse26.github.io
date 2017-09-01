@@ -1,3 +1,6 @@
+html{
+  height: 100%;
+}
 body{
   margin: 0;
   background: #193441;
@@ -7,37 +10,49 @@ p, h2, h3{
   color: #FCFFF5;
   font-family: Tinos
 }
+h2{
+  font-size: 28px;
+}
 .split{
   width: 50%;
   float: left;
   padding-top: 20px;
   box-sizing: border-box;
   height: 100%;
-  border-bottom: 6px solid #FCFFF5;
-  
+  padding-bottom: 3%
+ 
 }
 #main{
-
   border-top: 6px solid #FCFFF5;
-  height: 700px;
+  display: inline-flex;
+  float: left;
+  display: table;
+  overflow: hidden;
+  height: auto;
+  border-bottom: 0px solid #FCFFF5;
+  margin-bottom: 0%;
+  
 }
 h2{
   text-align: center
 }
 #leftsplit{
-  border-right: 4px solid #FCFFF5;
   box-sizing: border-box;
   padding-right: 40px;
   padding-left: 5%;
+  height: 100%;
+
 }
 #rightsplit{
-  border-left: 4px solid #FCFFF5;
+  border-left: 0px solid #FCFFF5;
   box-sizing: border-box;
   padding-left: 40px;
   padding-right: 5%;
+  height: 100%;
+  border-left: 8px solid #FCFFF5;
 }
 .sectitle{
-  padding-bottom: 20px
+  padding-bottom: 30px
 }
 p{
   padding-left: 30px;
@@ -46,4 +61,47 @@ p{
 }
 .link{
   color: #FFF;
+}
+.picbox{
+  width: 80%;
+  display: inline-block;
+  margin-left: 10%;
+  box-shadow: 3px 5px 20px  black;
+  margin-bottom: 1%
+}
+.pic{
+  display: inline-block;
+  float: left;
+  
+}
+#nuclearplant{
+  width: 63.1%
+}
+#sub{
+  width: 36.9%; 
+  box-sizing: border-box;
+  border-left: 2px black solid
+}
+
+@media only screen and (max-width: 700px), handheld{
+  .split{
+    width: 100%
+  }
+  #rightsplit{
+    border:none;
+    padding: 2%
+  }
+  #leftsplit{
+    padding: 2%;
+    border-bottom: 2px  #FCFFF5 solid;
+    margin-bottom: 6%;
+    padding-bottom: 9%;
+    box-sizing: border-box;
+  }
+  .picbox{
+    width: 100%;
+    margin-left: 0
+  }
+  #main{
+  border-top: 2px solid #FCFFF5;
 }

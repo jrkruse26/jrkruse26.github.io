@@ -2,6 +2,9 @@
 html{
   height: 100%;
 }
+body{
+  margin: 0
+}
 .navcont{
   width:100%;
   display: inline-block;
@@ -50,12 +53,19 @@ html{
   text-align: center;
     
 }
-@media only screen and (max-width: 700px), handheld{
+@media only screen and (max-width: 700px) and (min-width: 530px){
   a.nav{
-    font-size: 3.3vw;
+    font-size: 18px;
     padding: none;
     margin: none;
-  }
+    float: left;
+    display: block;
+    
+}
+}
+@media only screen and (max-width: 530px){
+   a.nav{
+    font-size: 3.3vw;
 }
 /* @media only screen and (max-width: 700px), handheld{
   .nav{
