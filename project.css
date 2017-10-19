@@ -1,12 +1,14 @@
 body {
-  background-color:#eaeaea;
+  background-color:#193441;
   margin: 0;
 }
 .title{
-  font-family: Russo One;
-  font-size: 30px;
+  font-family: Tinos;
+  font-size: 40px;
   text-align: center;
-  color: #ce2121;
+  color: lightgoldenrodyellow;
+  border-top: 4px white solid;
+  margin-top: .7%;
 }
 table, td, tr{
   text-align: center;
@@ -22,15 +24,18 @@ table, td, tr{
   width: 70%;
   max-width: 1000px;
   min-width: 550px;
+  background: #FCFFF5;
 }
 .desc{
   text-align: center;
-  font-family: opensans;
+  font-family: Open Sans;
   width: 70%;
   margin: 0 auto;
   padding-bottom: 25px;
   min-width: 550px;
   max-width: 1000px;
+  color: #FCFFF5;
+  font-size: 11.7pt
 }
 #header{
   font-weight: bold;
